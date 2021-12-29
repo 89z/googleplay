@@ -16,8 +16,10 @@ var DefaultConfig = Config{
    NativePlatform: []string{
       // com.vimeo.android.videoapp
       "x86",
+      "x86_64",
       // com.axis.drawingdesk.v3
       "armeabi-v7a",
+      "arm64-v8a",
    },
    SystemAvailableFeature: []string{
       // com.smarty.voomvoom
