@@ -18,7 +18,7 @@ Download APK from Google Play or send API requests
 This module works with Windows, macOS or Linux. You can download, build and run
 in less than [one&nbsp;minute][2].
 
-First, [download Go][3] and extract archive. Then [download GooglePlay][4] and
+First, [download Go][3] and extract archive. Note that you need go >= 1.18. Then [download GooglePlay][4] and
 extract archive. Then navigate to `googleplay-master/cmd/googleplay`, and
 enter:
 
