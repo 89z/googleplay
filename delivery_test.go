@@ -20,7 +20,7 @@ com.PirateBayGames.ZombieDefense2
 com.sigmateam.alienshootermobile.free
 */
 func TestDelivery(t *testing.T) {
-   cache, err := os.UserHomeDir()
+   cache, err := os.UserCacheDir()
    if err != nil {
       t.Fatal(err)
    }

@@ -38,7 +38,7 @@ type appType struct {
 }
 
 func TestDetails(t *testing.T) {
-   cache, err := os.UserHomeDir()
+   cache, err := os.UserCacheDir()
    if err != nil {
       t.Fatal(err)
    }

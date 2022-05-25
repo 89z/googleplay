@@ -27,7 +27,7 @@ func doDetails(head *gp.Header, app string, parse bool) error {
 }
 
 func doHeader(platform string, single bool) (*gp.Header, error) {
-   cache, err := os.UserHomeDir()
+   cache, err := os.UserCacheDir()
    if err != nil {
       return nil, err
    }
@@ -85,7 +85,7 @@ func doToken(email, password string) error {
    if err != nil {
       return err
    }
-   cache, err := os.UserHomeDir()
+   cache, err := os.UserCacheDir()
    if err != nil {
       return err
    }
@@ -93,7 +93,7 @@ func doToken(email, password string) error {
 }
 
 func doDevice(platform string) error {
-   cache, err := os.UserHomeDir()
+   cache, err := os.UserCacheDir()
    if err != nil {
       return err
    }
